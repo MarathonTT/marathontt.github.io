@@ -1,0 +1,647 @@
+<style> 
+    body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+    background-image:url(https://i.ibb.co/PrBgnrp/packedbus-opaque.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: auto;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .container {
+  width: 100%;
+  margin: auto auto auto auto;
+}
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 4.875rem;
+}
+#title {  
+    color: #104E10;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+  h1, h2 { text-align: center;
+  }
+  h2 {  
+    font-weight: 900;
+    color: #989C3F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  margin: center;
+  padding: center;
+}
+  
+p {  
+    font-weight: 900;
+    color: #989C3F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+inline {  
+  font-weight: 900;
+    color: #104E10;
+    font-family: 'Montserrat', sans-serif, heavy;
+    font-size: 18px;
+}
+
+text-center {
+  text-align: auto;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+  form {
+  background: white;
+  padding: 1.55rem 0.625rem;
+  border-radius: auto;
+}
+  
+.form-group {
+  margin: auto 2rem 0.25rem 2rem;
+  padding: auto;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #393b16;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.input-radio,
+  .input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 0;
+  min-width: 1.25rem;
+}
+label {  
+    font-weight: 900;
+    color: #989C3F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.clue {
+  margin-left: 0.05rem;
+  font-size: 1rem;
+  color: #989C3F;
+}
+  .input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color:#2b4f23 ;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: lightGreen;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+
+<div class="container">
+<header id="header">
+  <h1 id="title" class="text-center"> Marathon Courier Sign Up
+  </h1> 
+<h2 id="description" style="font-family:Montserrat, sans-serif; font-weight:900; font-size:22px;"> Thank you for taking the time to help us better serve you.
+</h2>
+  </header>
+<br>
+  <div class="w3-card-4">
+ <form id="survey-form"> 
+   <div class="form-group">
+     <br>
+    <label id="name-label" for="name">Name
+    </label><br>
+   <input  
+          placeholder="First & Last Name"
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          required
+          />
+   </div>
+   <br>
+   
+   <div class="form-group">
+   <label id="email-label"for="email">Contact
+    </label><br>
+   <input 
+          type="tel" 
+          placeholder="Mobile Number"
+          name="phone"
+          id="phone"
+          class="form-control"
+          required
+          /><br>
+     <label id="email-label"for="email" >Alternative Contact<span class="clue"> (optional)</span>
+    </label>
+     <input 
+          type="tel" 
+          placeholder="Phone Number"
+          name="phone"
+          id="phone"
+          class="form-control"
+          /><br> 
+   </div>
+   
+   <div class="form-group">
+   <label id="email-label"for="email">Email<span class="clue"> (optional)</span>
+    </label><br>
+   <input 
+          type="email" 
+          placeholder="Email Address"
+          name="email"
+          id="email"
+          class="form-control"
+          required
+          /><br> 
+   </div>
+     
+     <div class="form-group">
+   <label id="number-label" for="number">Age <span class="clue">(optional)</span></label>
+     <br>
+   <input 
+          type="number" 
+          placeholder="Age"
+          id="number"
+          min="14"
+          max="99"
+          class="form-control"
+          />
+     </div>
+   <br>
+   <div class="form-group">
+      <p>
+        What part of Trinidad are you generally located?
+      </p>
+      <select id="dropdown" placeholder="Select an option" name="location" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option disabled>REGIONAL LIST</option>
+        <option disabled></option>
+        <option value="Arima region">Arima region</option>
+        <option value="Diego Martin region">Diego Martin region</option>
+        <option value="Chaguanas region">Chaguanas region</option>
+        <option value="Couva–Tabaquite–Talparo region">Couva–Tabaquite–Talparo region</option>
+        <option value="Penal–Debe region">Penal–Debe region</option>
+        <option value="Point Fortin region">Point Fortin region</option>
+        <option value="Port of Spain region">Port of Spain region</option>
+        <option value="Princes Town region">Princes Town region</option>
+        <option value="Rio Claro–Mayaro region">Rio Claro–Mayaro region</option>
+        <option value="San Fernando region">San Fernando region</option>                          
+        <option value="Sangre Grande region">Sangre Grande region</option>
+        <option value="San Juan-Laventille">San Juan-Laventille region</option>
+        <option value="Siparia region">Siparia region</option>
+        <option value="Tobago region">Tobago region</option>        
+        <option value="Tunapuna–Piarco">Tunapuna–Piarco region</option>
+        <option disabled selected value></option>
+        <option disabled selected value>TOWN SPECIFIC LIST</option>
+        <option disabled selected value></option>
+        <option value="Aranguez">Aranguez</option>
+        <option value="Arima">Arima</option>
+        <option value="Arena">Arena</option>
+        <option value="Arnos Vale">Arnos Vale</option>
+        <option value="Aranguez">Arquart Village</option>
+        <option value="Arima">Arima</option>
+        <option value="Arena">Arena</option>
+        <option value="Auchenskeoch">Auchenskeoch</option>
+        <option value="Auzonville">Auzonville</option>
+        <option value="Avocat">Avocat</option>
+        <option value="Bacolet">Bacolet</option>
+        <option value="Balmain">Balmain</option>
+        <option value="Bamboo">Bamboo</option>                     
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Barataria">Barataria</option>
+        <option value="Barrackpore">Barrackpore</option>
+        <option value="Basta Hall">Basta Hall</option>
+        <option value="Beetham Estate Gardens">Beetham Estate Gardens</option>
+        <option value="Bethel">Bethel</option>
+        <option value="Belle Garden">Belle Garden</option>
+        <option value="Belmont">Belmont</option>
+        <option value="Ben Lomond">Ben Lomond</option>
+        <option value="Biche">Biche</option>
+        <option value="Black Rock">Black Rock</option>
+        <option value="Blanchisseuse">Blanchisseuse</option>
+        <option value="Boissiere Village">Boissiere Village</option>
+        <option value="Bon Accord">Bon Accord</option>
+        <option value="Bonne Aventure">Bonne Aventure</option>
+        <option value="Bonasse">Bonasse</option>
+        <option value="Borde Narve Village">Borde Narve Village</option>
+        <option value="Bourg Mulatresse">Bourg Mulatresse</option>
+        <option value="Brasso">Brasso</option>
+        <option value="Brasso Seco">Brasso Seco</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Brickfield">Brickfield</option>
+        <option value="Brighton">Brighton</option>
+        <option value="Buccoo">Buccoo</option>
+        <option value="Buen Intento Village">Buen Intento Village</option>
+        <option value="Caigual">Caigual</option>
+        <option value="Calcutta Settlement">Calcutta Settlement</option>
+        <option value="Calder Hall">Calder Hall</option>
+        <option value="California">California</option>
+        <option value="Canaan">Canaan</option>                                 
+        <option value="Cantaro">Cantaro</option>
+        <option value="Carapichaima">Carapichaima</option>
+        <option value="Carenage">Carenage</option>
+        <option value="Carli Bay">Carli Bay</option>
+        <option value="Carlsen Field">Carlsen Field</option>                                 
+        <option value="Carnbee">Carnbee</option>
+        <option value="Cascade">Cascade</option>
+        <option value="Castara">Castara</option>
+        <option value="Caura">Caura</option>
+        <option value="Cedar Hill Village">Cedar Hill Village</option>                        
+        <option value="Cedros">Cedros</option>
+        <option value="Centeno">Centeno</option>
+        <option value="Chaguanas">Chaguanas</option>
+        <option value="Chaguaramas">Chaguaramas</option>
+        <option value="Champs Fleurs">Champs Fleurs</option>                        
+        <option value="Chandernagore Village">Chandernagore Village</option>
+        <option value="Charlotteville">Charlotteville</option>
+        <option value="Charuma">Charuma</option>
+        <option value="Chase Village">Chase Village</option>
+        <option value="Chatham">Chatham</option>                        
+        <option value="Churkoo Village">Churkoo Village</option>
+        <option value="Claxton Bay">Claxton Bay</option>
+        <option value="Cocorite">Cocorite</option>
+        <option value="Cocoyea Village">Cocoyea Village</option>
+        <option value="Congo Village">Congo Village</option>                        
+        <option value="Coryal">Coryal</option>
+        <option value="Couva">Couva</option>
+        <option value="Culloden">Culloden</option>
+        <option value="Cumaca">Cumaca</option>
+        <option value="Cumuto">Cumuto</option>                        
+        <option value="Cunupia">Cunupia</option>
+        <option value="Curepe">Curepe</option>
+        <option value="Cushe">Cushe</option>
+        <option value="D'Abadie">D'Abadie</option>
+        <option value="Datsunville">Datsunville</option>                        
+        <option value="Debe">Debe</option>
+        <option value="Delaford">Delaford</option>
+        <option value="Diamond Village">Diamond Village</option>
+        <option value="Dibe">Dibe</option>
+        <option value="Diego Martin">Diego Martin</option>                        
+        <option value="Dinsley">Dinsley</option>
+        <option value="Dow Village">Dow Village</option>
+        <option value="Duncan Village">Duncan Village</option>
+        <option value="Ecclesville">Ecclesville</option>
+        <option value="Eckel Village">Eckel Village</option>                        
+        <option value="Edinburgh">Edinburgh</option>
+        <option value="El Dorado">El Dorado</option>
+        <option value="El Socorro">El Socorro</option>
+        <option value="Enterprise">Enterprise</option>
+        <option value="Endeavour">Endeavour</option>                        
+        <option value="Erin">Erin</option>
+        <option value="Exchange">Exchange</option>
+        <option value="Febeau Village">Febeau Village</option>
+        <option value="Felicity">Felicity</option>
+        <option value="Fifth Company">Fifth Company</option>                        
+        <option value="Fishing Pond">Fishing Pond</option>
+        <option value="Flanigin Town">Flanigin Town</option>
+        <option value="Freeport">Freeport</option>
+        <option value="Forres Park">Forres Park</option>
+        <option value="Four Roads">Four Roads</option>                        
+        <option value="Frederick Settlement">Frederick Settlement</option>
+        <option value="Friendship Village">Friendship Village</option>
+        <option value="Fullarton">Fullarton</option>
+        <option value="Fyzabad">Fyzabad</option>
+        <option value="Gasparillo">Gasparillo</option>                        
+        <option value="Glamorgan">Glamorgan</option>
+        <option value="Glencoe">Glencoe</option>
+        <option value="Golconda">Golconda</option>
+        <option value="Gonzales">Gonzales</option>
+        <option value="Gopaul Lands">Gopaul Lands</option>                        
+        <option value="Goodwood">Goodwood</option>
+        <option value="Goodwood Park">Goodwood Park</option>
+        <option value="Gran Couva">Gran Couva</option>
+        <option value="Grande Riviere">Grande Riviere</option>
+        <option value="Guaico">Guaico</option>                        
+        <option value="Guanapo">Guanapo</option>
+        <option value="Guapo">Guapo</option>
+        <option value="Guayaguayare">Guayaguayare</option>
+        <option value="Gulf View">Gulf View</option>
+        <option value="Hardbargain">Hardbargain</option>                        
+        <option value="Hindustan">Hindustan</option>
+        <option value="Hope">Hope</option>
+        <option value="Icacos">Icacos</option>
+        <option value="Iere Village">Iere Village</option>
+        <option value="Indian Chain">Indian Chain</option>                        
+        <option value="Indian Walk">Indian Walk</option>
+        <option value="Jerningham Junction">Jerningham Junction</option>
+        <option value="John Dial">John Dial</option>
+        <option value="John John">John John</option>
+        <option value="Jordan Hill">Jordan Hill</option>                        
+        <option value="Kelly Village">Kelly Village</option>
+        <option value="Kernaham">Kernaham</option>
+        <option value="Kumar Village">Kumar Village</option>
+        <option value="L'Anse Fourmi">L'Anse Fourmi</option>
+        <option value="L'Anse Mitan">L'Anse Mitan</option>                        
+        <option value="La Brea">La Brea</option>
+        <option value="La Canoa">La Canoa</option>
+        <option value="La Horquetta">La Horquetta</option>
+        <option value="La Paille">La Paille</option>
+        <option value="La Romaine">La Romaine</option>                        
+        <option value="Las Lomas">Las Lomas</option>
+        <option value="Lambeau">Lambeau</option>
+        <option value="Las Cuevas">Las Cuevas</option>
+        <option value="Laventille">Laventille</option>
+        <option value="Lengua">Lengua</option>  
+        <option value="Les Coteaux">Les Coteaux</option>
+        <option value="Longdenville">Longdenville</option>
+        <option value="Lopinot">Lopinot</option>
+        <option value="Los Bajos">Los Bajos</option>                        
+        <option value="Louis D'Or">Louis D'Or</option>
+        <option value="Lowlands">Lowlands</option>
+        <option value="Macoya">Macoya</option>
+        <option value="Madras Settlement">Madras Settlement</option>
+        <option value="Mairao Village">Mairao Village</option>  
+        <option value="Malabar">Malabar</option>
+        <option value="Malick">Malick</option>
+        <option value="Manzanilla">Manzanilla</option>
+        <option value="Marabella">Marabella</option>                        
+        <option value="Maracas">Maracas</option>
+        <option value="Maraval">Maraval</option>
+        <option value="Mason Hall">Mason Hall</option>
+        <option value="Matelot">Matelot</option>
+        <option value="Matura">Matura</option>  
+        <option value="Mausica">Mausica</option>
+        <option value="Mayaro">Mayaro</option>
+        <option value="Mayo">Mayo</option>
+        <option value="Mc Bean">Mc Bean</option>                        
+        <option value="Mohammedville">Mohammedville</option>
+        <option value="Mon Repos">Mon Repos</option>
+        <option value="Montrose">Montrose</option>
+        <option value="Monkey Town">Monkey Town</option>
+        <option value="Montserrat">Montserrat</option>  
+        <option value="Morang">Morang</option>
+        <option value="Moriah">Moriah</option>
+        <option value="Morne Diablo">Morne Diablo</option>
+        <option value="Morne Quinton">Morne Quinton</option>                        
+        <option value="Moruga">Moruga</option>
+        <option value="Morvant">Morvant</option>
+        <option value="Mount D'Or">Mount D'Or</option>
+        <option value="Mount Lambert">Mount Lambertkol</option>
+        <option value="Mount Saint George">Mount Saint George</option>  
+        <option value="Mount Stewart">Mount Stewart</option>
+        <option value="Mucurapo">Mucurapo</option>
+        <option value="Navet">Navet</option>
+        <option value="New Grant">New Grant</option>                        
+        <option value="O'Meara">O'Meara</option>
+        <option value="Orange Hill">Orange Hill</option>
+        <option value="Orange Valley">Orange Valley</option>
+        <option value="Oropune Village">Oropune Village</option>
+        <option value="Oropouche">Oropouche</option>  
+        <option value="Ortoire">Ortoire</option>
+        <option value="Otaheite">Otaheite</option>
+        <option value="Palmyra">Palmyra</option>
+        <option value="Palo Seco">Palo Seco</option>                        
+        <option value="Patna Village">Patna Village</option>
+        <option value="Pembroke">Pembroke</option>
+        <option value="Penal">Penal</option>
+        <option value="Penal Rock">Penal Rock</option>
+        <option value="Petit Trou">Petit Trou</option>  
+        <option value="Petit Valley">Petit Valley</option>
+        <option value="Phoenix Park">Phoenix Park</option>
+        <option value="Piarco">Piarco</option>
+        <option value="Pierreville">Pierreville</option>                        
+        <option value="Piparo">Piparo</option>
+        <option value="Plaisance">Plaisance</option>
+        <option value="Plaisance Park">Plaisance Park</option>
+        <option value="Plymouth">Plymouth</option>
+        <option value="Point Fortin">Point Fortin</option>  
+        <option value="Point Lisas">Point Lisas</option>
+        <option value="Pointe-à-Pierre">Pointe-à-Pierre</option>
+        <option value="Poole">Poole</option>
+        <option value="Port of Spain">Port of Spain</option>                        
+        <option value="Preysal">Preysal</option>
+        <option value="Princes Town">Princes Town</option>
+        <option value="Quarry Village">Quarry Village</option>
+        <option value="Quinam">Quinam</option>
+        <option value="Rockly Vale">Rockly Vale</option>  
+        <option value="Rampanalgas">Rampanalgas</option>
+        <option value="Rancho Quemado">Rancho Quemado</option>
+        <option value="Ravin Anglais">Ravin Anglais</option>
+        <option value="Redhead">Redhead</option>                        
+        <option value="Rio Claro">Rio Claro</option>
+        <option value="Roussillac">Roussillac</option>
+        <option value="Roxborough">Roxborough</option>
+        <option value="St. Ann's">St. Ann's</option>
+        <option value="St. Augustine">St. Augustine</option>  
+        <option value="St. Barb's">St. Barb's</option>
+        <option value="St. Clair">St. Clair</option>
+        <option value="St. Helena">St. Helena</option>
+        <option value="St. James">St. James</option>                        
+        <option value="St. Joseph">St. Joseph</option>
+        <option value="St. Mary's">St. Mary's</option>
+        <option value="Saint Madeleine">Saint Madeleine</option>
+        <option value="San Fernando">San Fernando</option>
+        <option value="San Francique">San Francique</option>  
+        <option value="San Juan">San Juan</option>
+        <option value="San Raphael">San Raphael</option>
+        <option value="Sans Souci">Sans Souci</option>
+        <option value="Sangre Chiquito">Sangre Chiquito</option>                        
+        <option value="Sangre Grande">Sangre Grande</option>
+        <option value="Santa Cruz">Santa Cruz</option>
+        <option value="Santa Flora">Santa Flora</option>
+        <option value="Santa Margarita">Santa Margarita</option>
+        <option value="Santa Rosa">Santa Rosa</option>  
+        <option value="Savonetta">Savonetta</option>
+        <option value="Scarborough">Scarborough</option>
+        <option value="Signal Hill">Signal Hill</option>
+        <option value="Siparia">Siparia</option>                        
+        <option value="South Oropouche">South Oropouche</option>
+        <option value="Speyside">Speyside</option>
+        <option value="Studley Park">Studley Park</option>
+        <option value="Spring Village">Spring Village</option>
+        <option value="Syne Village">Syne Village</option>  
+        <option value="Tabaquite">Tabaquite</option>
+        <option value="Tacarigua">Tacarigua</option>
+        <option value="Talparo">Talparo</option>
+        <option value="Techier Village">Techier Village</option>                        
+        <option value="Thick Village">Thick Village</option>
+        <option value="Third Company">Third Company</option>
+        <option value="Toco">Toco</option>
+        <option value="Tortuga">Tortuga</option>
+        <option value="Trincity">Trincity</option>  
+        <option value="Trou Macaque">Trou Macaque</option>
+        <option value="Tunapuna">Tunapuna</option>
+        <option value="Union Village">Union Village</option>
+        <option value="Valencia">Valencia</option>                        
+        <option value="Valsayn">Valsayn</option>
+        <option value="Vega de Oropouche">Vega de Oropouche</option>
+        <option value="Vessigny">Vessigny</option>
+        <option value="Vistabella">Vistabella</option>
+        <option value="Waterloo">Waterloo</option>  
+        <option value="Westmoorings">Westmoorings</option>
+        <option value="Whiteland">Whiteland</option>
+        <option value="Williamsville">Williamsville</option>
+        <option value="Woodbrook">Woodbrook</option>                          
+      </select>
+    </div>
+   <br>
+       <div class="form-group">
+      <p>
+        What gender are you?
+        <span class="clue">(optional)</span>
+      </p>
+
+      <label
+        ><input
+          name="gender"
+          value="female"
+          type="radio"
+          class="input-radio"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Female<b></label
+      ><br>
+      <label>
+        <input
+          name="gender"
+          value="male"
+          type="radio"
+          class="input-radio"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Male<b></label
+      ><br>
+         <label>
+        <input
+          name="gender"
+          value="other"
+          type="radio"
+          class="input-radio"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Other<b></label
+           ></div>
+         <br>
+    <div class="form-group">
+      <p>
+        Describe your delivery/logistics needs?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+      <label
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Package collected elsewhere and brought to your location<b></label
+      ><br>
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Package from your location delivered elsewhere<b></label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Retail items purchased and delivered to specified location<b></label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="challenges"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Packaging of products and gifts items for delivery<b></label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Scalable delivery and logistics solutions<b></label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Warehousing and storage of products<b></label
+      ><br>
+      <label
+        ><input
+          name="prefer"
+          value="videos"
+          type="checkbox"
+          class="input-checkbox"
+        /><b style="font-size: 16px; font-weight:600; color: #2b4f23;">Product fulfillment services<b></label
+    </div>
+   
+   <div class="form-group"><br>
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button"><inline>
+        Submit</inline>
+      </button>
+ </form>
+</div>
+<footer>
+  </footer>
