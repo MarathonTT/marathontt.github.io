@@ -125,12 +125,12 @@ body {
 }
 
 ::selection {
-  background: #dc8cdb;
+  background: #DFE752;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
+  background: #DFE752;
   color: #fff;
 }
 
@@ -153,8 +153,9 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(223, 231, 82);
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
+  background-color: #f5ffff;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -164,14 +165,14 @@ body {
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #F0A34F;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
   opacity: 0.9;
 }
 
 .white-button a {
   font-size: 13px;
-  color: #dc8cdb;
+  color: #F0A34F;
   background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
@@ -188,7 +189,7 @@ body {
 .text-button a {
   font-size: 14px;
   font-weight: 500;
-  color: #dc8cdb;
+  color: #F0A34F;
   text-decoration: underline !important;
   transition: all .3s;
 }
@@ -217,7 +218,7 @@ section {
 .section-heading h6 {
   font-size: 13px;
   text-transform: uppercase;
-  color: #7a7a7a;
+  color: #1A613E;
   font-weight: 600;
 }
 
@@ -232,7 +233,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #DFE752;
 }
 
 .section-heading p {
@@ -246,8 +247,8 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+  background: #f7f35f !important;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -405,7 +406,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #dc8cdb!important;
+  color: #1A613E!important;
   padding-left: 25px;
 }
 
@@ -618,11 +619,11 @@ header
     padding: 0px !important;
     border: none !important;
     background: #f7f7f7 !important;
-    color: #191a20 !important;
+    color: #FDF0D5 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb!important;
+    color: #DFE752!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -647,7 +648,7 @@ header
     height: auto;
   }
   .header-area .main-nav .nav li.has-sub:after {
-    color: #3B566E;
+    color: #FDF0D5;
     right: 30px;
     font-size: 14px;
     top: 15px;
@@ -732,7 +733,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #FDF0D5;
 }
 
 .main-banner .main-button-gradient {
@@ -788,7 +789,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #FDF0D5;
 }
 
 
@@ -848,7 +849,7 @@ section.our-courses .naccs .menu div {
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
+  color: #F0A34F;
   border: 3px solid rgba(219,138,222,1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
@@ -890,8 +891,8 @@ section.our-courses ul.nacc li .left-image img {
 
 section.our-courses ul.nacc li .left-image .price h6 {
   position: absolute;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #DFE752;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
   color: #fff;
   top: 20px;
   left: 20px;
@@ -1057,7 +1058,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #F0A34F;
 }
 
 .testimonials .item img {
@@ -1082,7 +1083,7 @@ section.testimonials:after {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #F0A34F;
 }
 
 
@@ -1132,8 +1133,8 @@ section.contact-us .contact-info .icon i {
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: F0A34F;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
   color: #fff;
 }
 
@@ -1145,7 +1146,7 @@ section.contact-us .contact-info h4 {
 
 section.contact-us .contact-info span {
   font-size: 15px;
-  color: #dc8cdb;
+  color: #f7f35f;
   font-weight: 700;
 }
 
@@ -1169,13 +1170,13 @@ section.contact-us #contact input {
   width: 100%;
   height: 40px;
   border-radius: 5px;
-  background-color: #f4f7fb;
+  background-color: #f7f35f;
   outline: none;
   border: none;
   box-shadow: none;
   font-size: 13px;
   font-weight: 500;
-  color: #7a7a7a;
+  color: #F0A34F;
   padding: 0px 15px;
   margin-bottom: 30px;
 }
@@ -1185,7 +1186,7 @@ section.contact-us #contact textarea {
   min-height: 140px;
   max-height: 180px;
   border-radius: 5px;
-  background-color: #f4f7fb;
+  background-color: #DFE752;
   outline: none;
   border: none;
   box-shadow: none;
@@ -1200,8 +1201,8 @@ section.contact-us #contact button {
   float: right;
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: DFE752;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1234,7 +1235,7 @@ section.contact-us ul.social-icons li a {
   text-align: center;
   line-height: 44px;
   background-color: #fff;
-  color: #dc8cdb;
+  color: #DFE752;
   border-radius: 50%;
   transition: all .5s;
 }
@@ -1274,7 +1275,7 @@ section.page-heading .header-text {
 section.page-heading .header-text h4 {
   font-size: 17px;
   text-transform: capitalize;
-  color: #7a7a7a;
+  color: #DFE752;
 }
 
 section.page-heading .header-text h1 {
@@ -1401,7 +1402,7 @@ section.our-team .naccs .menu div h4 {
 section.our-team .naccs .menu div span {
   font-size: 12px;
   text-transform: uppercase;
-  color: #dc8cdb;
+  color: #F0A34F;
   font-weight: 700;
   display: block;
 }
@@ -1520,7 +1521,7 @@ section.our-office .left-info ul li {
   display: block;
   font-size: 14px;
   font-weight: 600;
-  color: #4a4a4a;
+  color: #F0A34F;
   font-style: italic;
   margin-bottom: 20px;
 }
@@ -1557,8 +1558,8 @@ section.our-office #video .thumb .play-button a {
   transform: translate(-40px, -40px);
   color: #fff;
   font-size: 22px;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #FDF0D5;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
 }
 
 section.our-office #video img {
@@ -1673,7 +1674,7 @@ section.more-info ul li {
   display: block;
   font-size: 14px;
   font-weight: 600;
-  color: #4a4a4a;
+  color: #F0A34F;
   font-style: italic;
   margin-bottom: 20px;
 }
