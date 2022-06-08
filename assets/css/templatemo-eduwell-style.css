@@ -965,8 +965,7 @@ cta
 */
 
 section.simple-cta {
-  background-image: url(../images/cta-bg.png);
-  background-repeat: no-repeat;
+  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
   background-position: center center;
   background-size: cover;
   width: 100%;
