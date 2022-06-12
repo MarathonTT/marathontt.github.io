@@ -275,7 +275,7 @@ header
 }
 
 .header-area .main-nav {
-  min-height: 80px;
+  min-height: 100px;
   background: transparent;
 }
 
@@ -294,7 +294,7 @@ header
 }
 
 .background-header .main-nav .logo {
-  line-height: 75px;
+  line-height: 100px;
 }
 
 .background-header .nav {
@@ -326,7 +326,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   text-transform: capitalize;
   color: brown;
   -webkit-transition: all 0.3s ease 0s;
@@ -341,13 +341,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fff!important;
+  color: #a4db3d!important;
   opacity: 0.75;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fff!important;
+  color: ##a4db3d !important;
   opacity: 1;
 }
 
@@ -572,7 +572,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: ##f7f7f7;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -618,12 +618,12 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: ##fdefd5 !important;
     color: #FDF0D5 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #DFE752!important;
+    color: ##fdefd5!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
