@@ -125,13 +125,13 @@ body {
 }
 
 ::selection {
-  background: #DFE752;
+  background: ##c0c47a;
   color: #fff;
 }
 
 ::-moz-selection {
   background: #DFE752;
-  color: #fff;
+  color: #bl;
 }
 
 @media (max-width: 991px) {
@@ -153,8 +153,8 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(223, 231, 82);
-  background: linear-gradient(317deg, #f5ffff 0%, #f7f35f 100%);
+  background: rgb(224,163,64);
+  background: linear-gradient(90deg, rgba(224,163,64,1) 0%, rgba(241,180,140,1) 100%);
   background-color: #f5ffff;
   padding: 12px 30px;
   display: inline-block;
